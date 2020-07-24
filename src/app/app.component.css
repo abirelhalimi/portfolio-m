@@ -1,0 +1,24 @@
+
+
+.yellow-square {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  color: #D6D1CD;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+a {
+  color: darksalmon;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D6D1CD;
+}
