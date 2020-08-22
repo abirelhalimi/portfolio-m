@@ -1,0 +1,58 @@
+.about-section {
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+  h2 {
+    color: #282828;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+  }
+
+  div {
+    padding: 20px;
+
+    p {
+      font-size: 23px;
+      margin-left: 25px;
+    }
+
+    strong {
+      color: #8A9191;
+    }
+
+  }
+
+  .tech-stack {
+    .stack-container {
+      max-width: 1600px;
+      overflow: hidden;
+      text-align: center;
+      margin: auto;
+
+      .stack-item {
+        background: transparent;
+        height: 80px;
+        width: 100px;
+        margin: 30px;
+        border-radius: 50%;
+        display: inline-block;
+
+        img {
+          height: 80px;
+          width: 80px;
+          margin: 0 auto;
+          padding: 0;
+        }
+
+        p {
+          margin: 0 0 0 10px;
+          font-size: 15px;
+        }
+
+
+      }
+    }
+
+  }
+}

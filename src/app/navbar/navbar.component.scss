@@ -1,0 +1,28 @@
+.nav-bar {
+  margin-top: 20px;
+
+  ul {
+    margin-right: 50px;
+
+    li {
+      display: inline;
+      margin: 30px;
+      font-size: 30px;
+      color: #404040;
+
+      a {
+        text-decoration: none;
+        color: #404040;
+      }
+
+      a:hover {
+        border-bottom: 2px solid #404040;
+      }
+
+      a:focus {
+        border-bottom: 2px solid #404040;
+      }
+    }
+  }
+}
+

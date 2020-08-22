@@ -1,4 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  background-color: black;
+@font-face {
+  font-family: 'Gabriola';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gabriola'), url('assets/gabriola Font Download.woff') format('woff');
 }
+
+body {
+  background-color: #282828;
+  padding: 0;
+  margin: 0;
+  font-family: Gabriola, sans-serif;
+  color: #282828;
+  text-align: center;
+}
+
