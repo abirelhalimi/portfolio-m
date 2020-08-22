@@ -10,6 +10,12 @@ import { ContactComponent } from './contact/contact.component';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import { PreviewComponent } from './preview/preview.component';
+import { ProjectListComponent } from './project/project-list/project-list.component';
+import { ProjectDetailComponent } from './project/project-detail/project-detail.component';
+import {CommonModule} from '@angular/common';
+import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import {ContactService} from './contact/contact.service';
 
 @NgModule({
   declarations: [
@@ -20,13 +26,18 @@ import { PreviewComponent } from './preview/preview.component';
     ResumeComponent,
     ContactComponent,
     PreviewComponent,
+    ProjectListComponent,
+    ProjectDetailComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

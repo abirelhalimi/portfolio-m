@@ -1,1 +1,33 @@
-<p>contact works!</p>
+<div class="contact-container">
+  <div class="contact-info">
+    <a href="mailto:abirelhalimi@gmail.com">
+      <strong>Email</strong>
+      <p>abirelhalimi@gmail.com</p>
+    </a>
+  </div>
+  <div class="contact-form">
+    <h2>Come say Hi</h2>
+    <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="Email" aria-describedby="emailHelp"
+               placeholder="Enter email" formControlName="Email">
+      </div>
+      <div>
+        <label for="name">Full Name</label>
+        <input id="name" type="text" class="form-control" name="Fullname" placeholder="Full Name"
+               formControlName="Fullname">
+      </div>
+      <div class="form-group">
+        <label for="comment">Message</label>
+        <textarea id="comment" class="form-control" formControlName="Comment" name="Comment">
+            </textarea>
+      </div>
+      <input type="hidden" name="_honeypot" value="">
+      <input type="hidden" name="_confirmation"
+             value="Thank you for contacting me. I will get back to you as soon as possible.">
+      <div class="g-recaptcha" data-sitekey="6LfdLcIZAAAAALPgvY4p5AAlLUrFiHhon8I16Csf"></div>
+      <button type="submit" class="btn-dark-outline" [disabled]="!FormData.valid">Send</button>
+    </form>
+  </div>
+</div>

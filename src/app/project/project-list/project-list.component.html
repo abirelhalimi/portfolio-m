@@ -1,0 +1,23 @@
+<div class="project">
+  <h3 class="title">
+    {{project.name}}
+    <span>{{project.type}}</span>
+  </h3>
+  <img class="project-img"
+       src="{{project.icon}}"
+       alt="project-image">
+  <p class="description">
+    {{project.shortDescription}}
+  </p>
+  <ul *ngFor="let tag of project.tags">
+    <li>{{tag}}</li>
+  </ul>
+  <p><br></p>
+  <button class="btn-dark-outline" *ngIf="project.live">
+    <a href="{{project.live}}" target="_blank">Live site</a>
+  </button>
+  <button class="btn-dark-outline">
+    <a href="{{project.github}}" target="_blank">Github repo</a>
+  </button>
+
+</div>

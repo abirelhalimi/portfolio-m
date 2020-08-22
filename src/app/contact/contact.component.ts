@@ -1,15 +1,36 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
+import {ContactService} from './contact.service';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  FormData: FormGroup;
 
-  ngOnInit() {
+  constructor(private builder: FormBuilder, private contactService: ContactService) {
   }
 
+  ngOnInit() {
+    this.FormData = this.builder.group({
+      Fullname: new FormControl('', [Validators.required]),
+      Email: new FormControl('', [Validators.compose([Validators.required, Validators.email])]),
+      Comment: new FormControl('', [Validators.required])
+    });
+  }
+
+  onSubmit(FormData) {
+    console.log(FormData);
+    this.contactService.postMessage(FormData)
+      .subscribe(response => {
+        location.href = 'https://mailthis.to/confirm';
+        console.log(response);
+      }, error => {
+        console.warn(error.responseText);
+        console.log({error});
+      });
+  }
 }
