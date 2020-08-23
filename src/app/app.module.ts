@@ -16,6 +16,8 @@ import {CommonModule} from '@angular/common';
 import {ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {ContactService} from './contact/contact.service';
+import { GoogleRecaptchaComponent } from './google-recaptcha/google-recaptcha.component';
+import {RecaptchaModule} from 'angular-google-recaptcha';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import {ContactService} from './contact/contact.service';
     PreviewComponent,
     ProjectListComponent,
     ProjectDetailComponent,
+    GoogleRecaptchaComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,10 @@ import {ContactService} from './contact/contact.service';
     AppRoutingModule,
     CommonModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RecaptchaModule.forRoot({
+      siteKey: '6LfdLcIZAAAAALPgvY4p5AAlLUrFiHhon8I16Csf',
+    }),
   ],
   providers: [ContactService],
   bootstrap: [AppComponent]
