@@ -30,7 +30,7 @@
       <input type="hidden" name="_honeypot" value="">
       <input type="hidden" name="_confirmation"
              value="Thank you for contacting me. I will get back to you as soon as possible.">
-      <div>
+      <div class="google-recaptcha">
         <app-google-recaptcha></app-google-recaptcha>
       </div>
       <button type="submit" class="btn-dark-outline" [disabled]="!FormData.valid">Send</button>

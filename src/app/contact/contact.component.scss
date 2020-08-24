@@ -81,3 +81,95 @@
 
   }
 }
+
+@media only screen and (max-width: 450px) {
+
+  .contact-container {
+    font-family: Gabriola, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+
+    .contact-info {
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        justify-content: center;
+
+        strong {
+          font-size: 35px;
+        }
+
+        p {
+          margin: 0;
+          font-size: 20px;
+        }
+
+      }
+
+    }
+
+    .contact-form {
+
+      h2 {
+        font-size: 35px;
+      }
+
+      form {
+        div {
+          margin: 10px;
+          display: block;
+
+          label {
+            font-size: 20px;
+            display: block;
+          }
+
+          input {
+            height: 25px;
+            width: 200px;
+            display: block;
+            border: 1px solid #8A9191;
+            border-radius: 3px;
+          }
+
+          textarea {
+            border-radius: 3px;
+            height: 100px;
+            width: 200px;
+            display: block;
+            border: 1px solid #8A9191;
+          }
+
+          .google-recaptcha {
+            max-width: 200px;
+          }
+        }
+
+        button {
+          font-family: Gabriola, sans-serif;
+          font-size: 25px;
+          background-color: transparent;
+          padding: 0 10px;
+          min-width: 150px;
+          border-radius: 10px;
+          border: 1px solid #282828;
+          outline: none;
+          color: #282828;
+          margin: 10px;
+          cursor: pointer;
+
+        }
+
+        .btn-dark-outline:hover {
+          background-color: #282828;
+          color: white;
+        }
+      }
+
+    }
+  }
+
+}
