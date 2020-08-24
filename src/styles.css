@@ -12,5 +12,7 @@ body {
   font-family: Gabriola, sans-serif;
   color: #282828;
   text-align: center;
+  width: fit-content;
+  align-items: center;
 }
 

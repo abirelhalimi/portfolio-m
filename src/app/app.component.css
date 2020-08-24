@@ -90,8 +90,7 @@ li a:focus {
 .img-holder {
   position: absolute;
   top: 50px;
-  left: 50%;
-  margin-left: -100px;
+  margin: auto;
 }
 
 .links {

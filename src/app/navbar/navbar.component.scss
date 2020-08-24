@@ -2,8 +2,7 @@
   margin-top: 20px;
 
   ul {
-    margin-right: 50px;
-
+    padding: 0;
     li {
       display: inline;
       margin: 12px;
@@ -26,3 +25,11 @@
   }
 }
 
+@media (min-width: 400px) {
+  ul {
+    li {
+      margin: 6px;
+      font-size: 15px;
+    }
+  }
+}
