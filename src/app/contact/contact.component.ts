@@ -26,6 +26,7 @@ export class ContactComponent implements OnInit {
     console.log(FormData);
     this.contactService.postMessage(FormData)
       .subscribe(response => {
+        location.href = 'https://mailthis.to/confirm';
         console.log(response);
       }, error => {
         console.warn(error.responseText);
