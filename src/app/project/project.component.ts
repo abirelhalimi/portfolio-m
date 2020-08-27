@@ -15,7 +15,7 @@ export class ProjectComponent implements OnInit {
       description: '',
       github: 'https://github.com/abirelhalimi/random-quote-machine',
       icon: 'https://img.icons8.com/pastel-glyph/2x/dining-room.png',
-      live: 'https://aquoteaday.netlify.app/',
+      live: '',
       screens: ['', ''],
       shortDescription: 'A common food networking platform for restaurants and individuals dedicated to fighting food waste.',
       tags: ['Spring boot', 'React', 'Angular', 'PostgreSQL'],
