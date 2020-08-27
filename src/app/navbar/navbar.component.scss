@@ -25,11 +25,30 @@
   }
 }
 
-@media (min-width: 400px) {
-  ul {
-    li {
-      margin: 6px;
-      font-size: 15px;
+@media only screen and (max-width: 400px) {
+
+  .nav-bar {
+    ul {
+      padding: 0;
+      li {
+        margin: 8px;
+        font-size: 18px;
+        color: #404040;
+
+        a {
+          text-decoration: none;
+          color: #404040;
+        }
+
+        a:hover {
+          border-bottom: 2px solid #404040;
+        }
+
+        a:focus {
+          border-bottom: 2px solid #404040;
+        }
+      }
     }
   }
+
 }

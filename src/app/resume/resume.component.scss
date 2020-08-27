@@ -75,3 +75,48 @@
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+
+  .content {
+
+    .timeline {
+      margin: 30px auto;
+      max-width: 500px;
+      padding: 35px;
+      text-align: left;
+      overflow: hidden;
+
+      .event {
+        overflow: hidden;
+        background-color: white;
+        width: 260px;
+        height: 180px;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 20px auto 20px 0;
+        color: #282828;
+        display: inline-block;
+
+        h3 {
+          font-size: 25px;
+          margin: 0 0 0 10px;
+        }
+
+        h4 {
+          margin: 0 0 0 10px;
+        }
+
+        span {
+          margin: 0 0 0 10px;
+        }
+
+        p {
+          color: #8A9191;
+          margin: 10px 0 0 10px;
+        }
+      }
+    }
+  }
+
+}

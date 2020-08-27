@@ -16,6 +16,7 @@
 
   .title {
     text-align: left;
+
     span {
       color: #8A9191;
       float: right;
@@ -88,4 +89,29 @@
   }
 
 
+}
+
+@media only screen and (max-width: 400px) {
+  .project {
+    margin: 0;
+    width: 240px;
+    min-height: 360px;
+
+    h3 {
+      font-size: 25px;
+      margin: 0 0 0 10px;
+    }
+
+    .title {
+      span {
+        font-size: 15px;
+      }
+    }
+
+    ul {
+      display: inline-block;
+
+    }
+
+  }
 }
