@@ -37,6 +37,7 @@
         margin: 30px;
         border-radius: 50%;
         display: inline-block;
+        align-items: center;
 
         img {
           height: 80px;
@@ -55,4 +56,23 @@
     }
 
   }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .about-section {
+
+
+    .tech-stack {
+      .stack-container {
+
+        .stack-item {
+          margin: 10px;
+
+        }
+      }
+
+    }
+  }
+
 }
