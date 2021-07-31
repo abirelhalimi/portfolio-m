@@ -18,6 +18,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {ContactService} from './contact/contact.service';
 import { GoogleRecaptchaComponent } from './google-recaptcha/google-recaptcha.component';
 import {RecaptchaModule} from 'angular-google-recaptcha';
+import { ProductComponent } from './product/product.component';
+import { ProductListComponent } from './product/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import {RecaptchaModule} from 'angular-google-recaptcha';
     ProjectListComponent,
     ProjectDetailComponent,
     GoogleRecaptchaComponent,
+    ProductComponent,
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
