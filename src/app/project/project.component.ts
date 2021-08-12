@@ -19,7 +19,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'A common food networking platform for restaurants and individuals dedicated to fighting food waste.',
       tags: ['Spring boot', 'React', 'Angular', 'PostgreSQL'],
-      type: 'School'
     },
     {
       id: 1,
@@ -31,7 +30,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'Web application for managing social projects built by free donations via the consultation of advertising videos.',
       tags: ['Spring boot', 'Angular', 'PostgreSQL', 'JWT'],
-      type: 'Professional'
     },
     {
       id: 2,
@@ -43,7 +41,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'Web application for car tracking and managing. where you can add your cars and track their position.',
       tags: ['Java', 'JSP / Servlet', 'HTML', 'CSS'],
-      type: 'School'
     },
     {
       id: 3,
@@ -55,7 +52,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'A L.V. Beethoven tribute page done as a part of the responsive web design certificate on FreeCodeCamp.',
       tags: ['HTML', 'CSS'],
-      type: 'Personal'
     },
     {
       id: 4,
@@ -67,7 +63,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'A random quote machine done as a part of the Front-end libraries certificate on FreeCodeCamp.',
       tags: ['Angular', 'HTML', 'CSS'],
-      type: 'Personal'
     },
     {
       id: 5,
@@ -79,7 +74,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'Covid-19 news in both Arabic and English to see number of cases and other information by country.',
       tags: ['Angular', 'HTML', 'CSS'],
-      type: 'Personal'
     },
     {
       id: 6,
@@ -91,7 +85,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'Android Game for learning questions for 4-5 years old autistic children.',
       tags: ['Android Studio', 'Java'],
-      type: 'School'
     },
     {
       id: 7,
@@ -104,7 +97,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'Web application for managing courses and resumes and IT related questions/answers dedicated for ENSIAS students.',
       tags: ['Spring boot', 'Thymeleaf', 'PostgreSQL'],
-      type: 'School'
     },
     {
       id: 8,
@@ -116,7 +108,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'My personal portfolio. Build and designed by me to showcase the different projects i\'ve worked on.',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      type: 'Personal'
     },
     {
       id: 9,
@@ -128,19 +119,6 @@ export class ProjectComponent implements OnInit {
       screens: ['', ''],
       shortDescription: 'Model driven engineering project. For more information on this project please checkout the github repository.',
       tags: ['Java', 'Henshin', 'Xtext', 'PlantUML'],
-      type: 'School'
-    },
-    {
-      id: 10,
-      name: 'Gaming Center',
-      description: '',
-      github: 'https://github.com/abirelhalimi/gaming-center',
-      icon: 'https://static.thenounproject.com/png/123929-200.png',
-      live: '',
-      screens: ['', ''],
-      shortDescription: 'Management system for a gaming center to keep track of the games played by day and other data.',
-      tags: ['Spring boot', 'Angular', 'PostgreSQL'],
-      type: 'Professional'
     },
   ];
 
