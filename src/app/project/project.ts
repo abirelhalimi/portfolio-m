@@ -8,5 +8,4 @@ export class Project {
   github: string;
   live: string;
   screens: string[];
-  type: string;
 }
