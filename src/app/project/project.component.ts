@@ -10,7 +10,18 @@ export class ProjectComponent implements OnInit {
 
   projects: Project[] = [
     {
-      id: 0,
+      id: 10,
+      name: 'Crypto Zombies',
+      description: '',
+      github: 'https://github.com/abirelhalimi/crypto_zombies',
+      icon: 'https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/blockchain.png',
+      live: '',
+      screens: ['', ''],
+      shortDescription: 'A game built on Ethereum. This project is part of the Solidity course on cryptozombies.io',
+      tags: ['Solidity', 'Ethereum', 'Web3'],
+    },
+    {
+      id: 9,
       name: 'Foodies',
       description: '',
       github: 'https://github.com/abirelhalimi/random-quote-machine',
@@ -21,7 +32,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Spring boot', 'React', 'Angular', 'PostgreSQL'],
     },
     {
-      id: 1,
+      id: 8,
       name: 'Donation App',
       description: '',
       github: 'https://github.com/daychissaf/donation-app',
@@ -32,7 +43,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Spring boot', 'Angular', 'PostgreSQL', 'JWT'],
     },
     {
-      id: 2,
+      id: 7,
       name: 'Car Tracking',
       description: '',
       github: 'https://github.com/abirelhalimi/car_tracking',
@@ -43,7 +54,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Java', 'JSP / Servlet', 'HTML', 'CSS'],
     },
     {
-      id: 3,
+      id: 6,
       name: 'Tribute Page',
       description: '',
       github: 'https://github.com/abirelhalimi/tribute-page',
@@ -54,7 +65,7 @@ export class ProjectComponent implements OnInit {
       tags: ['HTML', 'CSS'],
     },
     {
-      id: 4,
+      id: 5,
       name: 'A Quote A Day',
       description: '',
       github: 'https://github.com/abirelhalimi/random-quote-machine',
@@ -65,7 +76,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Angular', 'HTML', 'CSS'],
     },
     {
-      id: 5,
+      id: 4,
       name: 'Covid-19 News',
       description: '',
       github: 'https://github.com/abirelhalimi/covid19',
@@ -76,7 +87,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Angular', 'HTML', 'CSS'],
     },
     {
-      id: 6,
+      id: 3,
       name: 'Questions Game',
       description: '',
       github: 'https://github.com/abirelhalimi/questions-game',
@@ -87,7 +98,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Android Studio', 'Java'],
     },
     {
-      id: 7,
+      id: 2,
       name: 'e-ensias',
       description: '',
       github: 'https://github.com/abirelhalimi/e-ensias',
@@ -99,7 +110,7 @@ export class ProjectComponent implements OnInit {
       tags: ['Spring boot', 'Thymeleaf', 'PostgreSQL'],
     },
     {
-      id: 8,
+      id: 1,
       name: 'Portfolio',
       description: '',
       github: 'https://github.com/abirelhalimi/portfolio-m',
@@ -110,7 +121,7 @@ export class ProjectComponent implements OnInit {
       tags: ['HTML', 'CSS', 'JavaScript'],
     },
     {
-      id: 9,
+      id: 0,
       name: 'MDE',
       description: '',
       github: 'https://github.com/abirelhalimi/MDE',
