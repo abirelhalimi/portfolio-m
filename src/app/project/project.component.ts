@@ -10,17 +10,6 @@ export class ProjectComponent implements OnInit {
 
   projects: Project[] = [
     {
-      id: 10,
-      name: 'Crypto Zombies',
-      description: '',
-      github: 'https://github.com/abirelhalimi/crypto_zombies',
-      icon: 'https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/blockchain.png',
-      live: '',
-      screens: ['', ''],
-      shortDescription: 'A game built on Ethereum. This project is part of the Solidity course on cryptozombies.io',
-      tags: ['Solidity', 'Ethereum', 'Web3'],
-    },
-    {
       id: 9,
       name: 'Foodies',
       description: '',
@@ -69,7 +58,7 @@ export class ProjectComponent implements OnInit {
       name: 'A Quote A Day',
       description: '',
       github: 'https://github.com/abirelhalimi/random-quote-machine',
-      icon: 'https://pngriver.com/wp-content/uploads/2018/04/Download-Quote-Png-Image-97166-For-Designing-Projects.png',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cquote1_black.svg/800px-Cquote1_black.svg.png',
       live: 'https://aquoteaday.netlify.app/',
       screens: ['', ''],
       shortDescription: 'A random quote machine done as a part of the Front-end libraries certificate on FreeCodeCamp.',
