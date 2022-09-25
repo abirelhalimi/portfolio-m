@@ -10,10 +10,21 @@ export class ProjectComponent implements OnInit {
 
   projects: Project[] = [
     {
+      id: 10,
+      name: 'Mood Diary',
+      description: '',
+      github: 'https://github.com/abirelhalimi/moody-diary',
+      icon: 'https://static.thenounproject.com/png/3000416-200.png',
+      live: 'https://moody-diary.netlify.app',
+      screens: ['', ''],
+      shortDescription: 'A simple dApp to set and get mood done as part of the freshman course on LearnWeb3.',
+      tags: ['Solidity', 'HTML', 'CSS', 'EthersJS'],
+    },
+    {
       id: 9,
       name: 'Foodies',
       description: '',
-      github: 'https://github.com/abirelhalimi/random-quote-machine',
+      github: 'https://github.com/abirelhalimi/foodies',
       icon: 'https://img.icons8.com/pastel-glyph/2x/dining-room.png',
       live: '',
       screens: ['', ''],
