@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: 'resume', component: ResumeComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'preview', component: PreviewComponent},
-  {path: 'products', component: ProductComponent},
+  {path: 'planners', component: ProductComponent},
 
 ];
 
