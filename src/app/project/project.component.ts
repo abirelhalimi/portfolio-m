@@ -80,7 +80,7 @@ export class ProjectComponent implements OnInit {
       name: 'Covid-19 News',
       description: '',
       github: 'https://github.com/abirelhalimi/covid19',
-      icon: 'https://i.ya-webdesign.com/images/newspaper-icon-png-5.png',
+      icon: 'https://cdn-icons-png.flaticon.com/512/4097/4097354.png',
       live: 'https://covid19-news-ar.netlify.app/',
       screens: ['', ''],
       shortDescription: 'Covid-19 news in both Arabic and English to see number of cases and other information by country.',
