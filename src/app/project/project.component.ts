@@ -9,16 +9,27 @@ import {Project} from './project';
 export class ProjectComponent implements OnInit {
 
   projects: Project[] = [
+    // {
+    //   id: 10,
+    //   name: 'Mood Diary',
+    //   description: '',
+    //   github: 'https://github.com/abirelhalimi/moody-diary',
+    //   icon: 'https://static.thenounproject.com/png/3000416-200.png',
+    //   live: 'https://moody-diary.netlify.app',
+    //   screens: ['', ''],
+    //   shortDescription: 'A simple dApp to set and get mood done as part of the freshman course on LearnWeb3.',
+    //   tags: ['Solidity', 'HTML', 'CSS', 'EthersJS'],
+    // },
     {
       id: 10,
-      name: 'Mood Diary',
+      name: 'Coin Control',
       description: '',
-      github: 'https://github.com/abirelhalimi/moody-diary',
-      icon: 'https://static.thenounproject.com/png/3000416-200.png',
-      live: 'https://moody-diary.netlify.app',
+      github: 'https://github.com/abirelhalimi/coin-control',
+      icon: 'https://static.thenounproject.com/png/2285848-200.png',
+      live: '',
       screens: ['', ''],
-      shortDescription: 'A simple dApp to set and get mood done as part of the freshman course on LearnWeb3.',
-      tags: ['Solidity', 'HTML', 'CSS', 'EthersJS'],
+      shortDescription: 'A personal finance tracker app for logging transactions, managing budgets, and analyzing spending habits.',
+      tags: ['Spring boot', 'PostgreSQL'],
     },
     {
       id: 9,
