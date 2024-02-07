@@ -140,7 +140,7 @@ export class ProjectComponent implements OnInit {
       icon: 'https://vectorified.com/images/portfolio-website-icon-20.jpg',
       live: 'https://abirelhalimi.com',
       screens: ['', ''],
-      shortDescription: 'My personal portfolio. Build and designed by me to showcase the different projects i\'ve worked on.',
+      shortDescription: 'My personal portfolio. Built and designed by me to showcase the different projects i\'ve worked on.',
       tags: ['HTML', 'CSS', 'JavaScript'],
     },
     {
