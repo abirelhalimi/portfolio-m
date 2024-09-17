@@ -31,18 +31,18 @@ export class ProjectComponent implements OnInit {
     //   shortDescription: 'A personal finance tracker app for logging transactions, managing budgets, and analyzing spending habits.',
     //   tags: ['Spring boot', 'PostgreSQL'],
     // },
-    {
-      id: 10,
-      name: 'Game Hub',
-      description: '',
-      github: 'https://github.com/abirelhalimi/game-hub',
-      icon: 'https://cdn-icons-png.flaticon.com/512/686/686589.png',
-      live: 'https://game-hub-abirelhalimi.vercel.app/',
-      screens: ['', ''],
-      shortDescription: 'Rawg clone, a video game discovery platform that offers a comprehensive database of ' +
-        'games across multiple platforms.',
-      tags: ['TypeScript', 'React', 'Vite', 'Chakra UI'],
-    },
+    // {
+    //   id: 10,
+    //   name: 'Game Hub',
+    //   description: '',
+    //   github: 'https://github.com/abirelhalimi/game-hub',
+    //   icon: 'https://cdn-icons-png.flaticon.com/512/686/686589.png',
+    //   live: 'https://game-hub-abirelhalimi.vercel.app/',
+    //   screens: ['', ''],
+    //   shortDescription: 'Rawg clone, a video game discovery platform that offers a comprehensive database of ' +
+    //     'games across multiple platforms.',
+    //   tags: ['TypeScript', 'React', 'Vite', 'Chakra UI'],
+    // },
     {
       id: 9,
       name: 'Foodies',
