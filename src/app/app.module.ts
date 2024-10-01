@@ -11,13 +11,10 @@ import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import { PreviewComponent } from './preview/preview.component';
 import { ProjectListComponent } from './project/project-list/project-list.component';
-import { ProjectDetailComponent } from './project/project-detail/project-detail.component';
 import {CommonModule} from '@angular/common';
 import {ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {ContactService} from './contact/contact.service';
-import { GoogleRecaptchaComponent } from './google-recaptcha/google-recaptcha.component';
-import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -29,9 +26,6 @@ import { ProductComponent } from './product/product.component';
     ContactComponent,
     PreviewComponent,
     ProjectListComponent,
-    ProjectDetailComponent,
-    GoogleRecaptchaComponent,
-    ProductComponent,
   ],
   imports: [
     BrowserModule,

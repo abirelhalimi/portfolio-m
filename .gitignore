@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+/build
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
@@ -44,3 +45,24 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Angular cache
+/.angular/cache
+/.angular
+
+# Coverage reports
+/coverage/
+
+# Environment files
+/.env
+/.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local environment files
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+/.angular
+/.angular/cache
