@@ -9,5 +9,4 @@ import {ContactService} from './contact.service';
 })
 export class ContactComponent {
 
-  
 }
