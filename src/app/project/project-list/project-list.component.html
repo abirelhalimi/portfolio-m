@@ -15,7 +15,7 @@
   <button class="btn-dark-outline" *ngIf="project.live">
     <a href="{{project.live}}" target="_blank">Live site</a>
   </button>
-  <button class="btn-dark-outline">
+  <button class="btn-dark-outline" *ngIf="project.github">
     <a href="{{project.github}}" target="_blank">Github repo</a>
   </button>
 

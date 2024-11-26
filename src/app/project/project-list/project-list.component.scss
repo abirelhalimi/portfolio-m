@@ -33,8 +33,9 @@
 
   .description {
     text-align: left;
-    color: #8A9191;
+    color: #282828;
     margin-bottom: 20px;
+    font-size: 18px;
   }
 
   ul {
@@ -50,7 +51,7 @@
       margin: 5px;
       padding: 10px;
       color: white;
-      background-color: #8A9191;
+      background-color: #414040;
       border-radius: 10px;
       display: inline;
     }
@@ -108,9 +109,20 @@
       }
     }
 
+    .description {
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
     ul {
       display: inline-block;
 
+    }
+    .btn-dark-outline {
+      font-size: 20px;
+      padding: 0 5px;
+      min-width: 125px;
+      margin: 2px;
     }
 
   }
