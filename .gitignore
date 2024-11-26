@@ -66,3 +66,4 @@ Thumbs.db
 /src/environments/environment.prod.ts
 /.angular
 /.angular/cache
+/.angular
